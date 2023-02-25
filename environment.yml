@@ -1,5 +1,11 @@
-numpy
-opencv-python
-face_recognition
-scikit-learn
-imutils
+name: dlib
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - opencv-python
+  - face_recognition
+  - scikit-learn
+  - imutils
+  - streamlit >= 0.73
+  - dlib
