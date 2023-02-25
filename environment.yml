@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - numpy
-  - opencv-python
+  - opencv
   - face_recognition
   - scikit-learn
   - imutils
